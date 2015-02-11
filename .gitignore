@@ -24,6 +24,8 @@ lint.xml
 local.properties
 proguard-project.txt
 build-*/
+catkin_generated/
+devel/
 *.autosave
 *.pyc
 *.cmake
