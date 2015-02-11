@@ -102,7 +102,7 @@ int main(int argc, char** argv)
 
 	CoreWrapper * rtabmap = new CoreWrapper(deleteDbOnStart);
 
-	ROS_INFO("rtabmap started...");
+	ROS_INFO("rtabmap started...!");
 	ros::spin();
 
 	delete rtabmap;
