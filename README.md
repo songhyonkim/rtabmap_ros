@@ -66,7 +66,9 @@ $ cd ~/catkin_ws
 $ catkin_make
 ```
 
-#### Mapping 
+## Execution
+
+### Mapping 
 
 ```
 $ roscore
@@ -82,10 +84,6 @@ $ roslaunch kobuki_keyop safe_keyop.launch
 
 ```
 $ roslaunch openni_launch openni.launch depth_registration:=true
-```
-
-```
-$ rosrun depthimage_to_laserscan depthimage_to_laserscan image:=/camera/depth_registered/image_raw
 ```
 
 ```
