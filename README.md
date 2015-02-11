@@ -66,4 +66,29 @@ $ cd ~/catkin_ws
 $ catkin_make
 ```
 
+#### Mapping 
+
+```
+$ roscore
+```
+
+```
+$ roslaunch kobuki_node minimal.launch
+```
+
+```
+$ roslaunch kobuki_keyop safe_keyop.launch
+```
+
+```
+$ roslaunch openni_launch openni.launch depth_registration:=true
+```
+
+```
+$ rosrun depthimage_to_laserscan depthimage_to_laserscan image:=/camera/depth_registered/image_raw
+```
+
+```
+$ roslaunch rtabmap_ros rgbd_mapping_kobuki.launch
+```
 
